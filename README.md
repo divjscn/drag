@@ -11,5 +11,6 @@ loca(g("ui_main"),g("ui_title"));//g("ui_main")拖动的文件，g("ui_title")�
 //这个是控制浏览器大小改变时也执行
 
 window.onresize=function(){
+
 	loca(g("ui_main"),g("ui_title"));
  }
